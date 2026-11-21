@@ -1,0 +1,79 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite this software record and the model papers listed under references."
+title: "COPSE V2.1 with a temperature-dependent marine silica cycle"
+abstract: >-
+  A modified version of COPSE V2.1 in which an explicit dissolved-silica
+  reservoir, an alkalinity-DIC closure and a temperature-dependent
+  reverse-weathering flux are added to the original carbon-oxygen-phosphorus-
+  sulfur model.
+type: software
+version: "2026.10"
+date-released: "2026-10-24"
+license: Apache-2.0
+keywords:
+  - reverse weathering
+  - marine silica cycle
+  - carbon cycle
+  - COPSE
+  - Early Triassic
+authors:
+  - family-names: Lu
+    given-names: Ning
+    affiliation: "Xiamen University"
+references:
+  - type: article
+    title: "COPSE reloaded: An improved model of biogeochemical cycling over Phanerozoic time"
+    authors:
+      - family-names: Lenton
+        given-names: Timothy M.
+      - family-names: Daines
+        given-names: Stuart J.
+      - family-names: Mills
+        given-names: Benjamin J. W.
+    journal: Earth-Science Reviews
+    volume: 178
+    start: 1
+    end: 28
+    year: 2018
+    doi: 10.1016/j.earscirev.2017.12.004
+  - type: article
+    title: "Reconciling proxy records and models of Earth's oxygenation during the Neoproterozoic and Palaeozoic"
+    authors:
+      - family-names: Tostevin
+        given-names: Rosalind
+      - family-names: Mills
+        given-names: Benjamin J. W.
+    journal: Interface Focus
+    volume: 10
+    issue: 4
+    start: "20190137"
+    year: 2020
+    doi: 10.1098/rsfs.2019.0137
+  - type: article
+    title: "A coupled carbon-silicon cycle model over Earth history: Reverse weathering as a possible explanation of a warm mid-Proterozoic climate"
+    authors:
+      - family-names: Krissansen-Totton
+        given-names: Joshua
+      - family-names: Catling
+        given-names: David C.
+    journal: Earth and Planetary Science Letters
+    volume: 537
+    start: 116181
+    year: 2020
+    doi: 10.1016/j.epsl.2020.116181
+  - type: article
+    title: "Controls on the Cretaceous and Cenozoic evolution of seawater composition, atmospheric CO2 and climate"
+    authors:
+      - family-names: Bergman
+        given-names: Noam M.
+      - family-names: Lenton
+        given-names: Timothy M.
+      - family-names: Watson
+        given-names: Andrew J.
+    journal: American Journal of Science
+    volume: 304
+    issue: 5
+    start: 397
+    end: 437
+    year: 2004
+    doi: 10.2475/ajs.304.5.397

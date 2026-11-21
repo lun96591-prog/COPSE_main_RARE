@@ -1,0 +1,44 @@
+COPSE V2.1 with a temperature-dependent marine silica cycle
+===========================================================
+
+Original work
+-------------
+COPSE V2.1 (Carbon Oxygen Phosphorus Sulfur Evolution)
+Copyright (c) 2018 Benjamin J. W. Mills
+Coded by Benjamin JW Mills // b.mills@leeds.ac.uk
+Model lineage: Bergman et al. (2004); Lenton et al. (2018);
+Tostevin & Mills (2020).
+Licensed under the Apache License, Version 2.0.
+
+Modifications
+-------------
+Copyright (c) 2026 Ning Lu, Xiamen University.
+
+This product includes software developed within the COPSE project and has
+been modified for the study of a temperature-dependent, substrate-limited
+reverse-weathering feedback on the deep-time carbon-silica cycle.
+
+Modified files
+--------------
+- COPSE_frontend.m : parameter blocks, initial conditions and switches for
+                     the marine silica cycle, the alkalinity-DIC closure and
+                     the calibration runs.
+- COPSE_equations.m: state vector expanded from 24 to 27 by adding DSi (25),
+                     alkalinity (26) and DIC (27); new flux terms for reverse
+                     weathering, biogenic and abiotic silica burial,
+                     carbonate burial and air-sea CO2 exchange.
+- readme.md        : section "Modifications for this study (2026)".
+
+Third-party components
+----------------------
+Conceptually adapted from earlier models and credited in the manuscript:
+- marine silica cycle: Krissansen-Totton & Catling (2020),
+  Earth and Planetary Science Letters, 537, 116181.
+- alkalinity layer: Chen & Lenton (2026), EGUsphere [preprint],
+  egusphere-2026-2949.
+- alkalinity-DIC bookkeeping and air-sea exchange: EaSy/pCO2SYS conventions
+  (Zeebe & Wolf-Gladrow, 2001; Dickson & Goyet, 1994).
+
+The modified files are distributed under the Apache License, Version 2.0.
+See the LICENSE file for the full text. All original copyright and
+attribution notices are retained.
