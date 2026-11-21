@@ -81,11 +81,11 @@ last, the single-parameter scans.
 - `warmtail_LHS_calibrated.m` — random sampling in the observationally admissible region (k_rw × Alk:Si ≤ 2.8) with paired Q_rw = 0 runs; produces the main W_extra distribution.
 - `warmtail_MCMC.m` — Metropolis-Hastings posterior of {k_rw, Q_rw, Alk:Si} with a 2-term likelihood (modern pCO2 + DSi) and posterior W_extra.
 - `calibrate_MCMC.m` — the same MCMC with a 10-term likelihood (six modern-calibration terms plus four silicon-budget terms).
-- `fig2_prior_vs_posterior.m` — Fig. 2: prior propagation versus the 2-term and 10-term posteriors; reads the three `.mat` caches, so run the three scripts above first.
-- `paired_runs_figure.m` — composite figure of GMST, DSi/Si_rw, f_T,rw and the geological time bar for paired Q_rw on/off runs.
-- `fig4_rw_off.m` — Fig. 4: three-scenario time series (calibrated, no reverse weathering, no temperature dependence).
-- `fig5_modern_validation.m` — Fig. 5: modern-state calibration check (model/observation ratios and silicon fluxes versus literature).
-- `five_param_wspan.m` — merges five one-at-a-time scans and compares the resulting W_extra ranges.
+- `fig2_modern_validation.m` — Fig. 2:modern-state calibration check (model/observation ratios and silicon fluxes versus literature).
+- `fig3_paired_runs_figure.m` — composite figure of GMST, DSi/Si_rw, f_T,rw and the geological time bar for paired Q_rw on/off runs.
+- `fig4_prior_vs_posterior.m` —Fig. 4: prior propagation versus the 2-term and 10-term posteriors; reads the three `.mat` caches, so run the three scripts above first. 
+- `fig5_rw_off.m` — Fig. 5: three-scenario time series (calibrated, no reverse weathering, no temperature dependence).
+- `fig6_five_param_wspan.m` — merges five one-at-a-time scans and compares the resulting W_extra ranges.
 - `Qrw_sensitivity_scan.m` — scans Q_rw (0–0.12 K^-1), maps it to Ea and Q10, and reports Early Triassic amplification.
 - `krw_si_scan.m` — scans k_rw_si over 1.0/1.5/2.0 Tmol Si/yr (estuarine value to Rahman upper bound).
 - `AlkSi_ratio_sensitivity.m` — scans the Alk:Si stoichiometry from 1.33 to 4.0 and its effect on W_extra.
